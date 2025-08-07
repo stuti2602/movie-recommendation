@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-from routes.movie_routes import router as movie_router
+from controllers import user_controller
 
 app = FastAPI()
 
-app.include_router(movie_router, prefix="/movies", tags=["Movies"])
+app.include_router(user_controller.router)
 
 @app.get("/")
 def read_root():
