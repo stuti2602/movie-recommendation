@@ -10,6 +10,12 @@ __pycache__/
 # venv
 .venv/
 
+# DB connection test
+mongo_test.py
+
+# rough
+rough.txt
+
 # Distribution / packaging
 .Python
 build/
