@@ -1,10 +1,9 @@
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
 
 class Movie(BaseModel):
-    id: Optional[str]  # Will be MongoDB ObjectId as str later
+    id: int
     title: str
-    genre: str
-    director: str
-    year: int
+    description: str
+    genre: List[str]
     rating: float
