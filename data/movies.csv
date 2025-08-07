@@ -1,0 +1,61 @@
+id,title,description,genre,year_of_release,rating
+1,Inception,A thief who steals corporate secrets through dream-sharing,Action|Sci-Fi,2010,8.8
+2,The Godfather,The aging patriarch transfers control of his empire,Crime|Drama,1972,9.2
+3,The Dark Knight,Batman sets out to dismantle organized crime in Gotham,Action|Crime|Drama,2008,9.0
+4,Parasite,Greed and class discrimination threaten a new relationship,Drama|Thriller,2020,8.6
+5,Spirited Away,A young girl enters a world of gods and spirits,Animation|Fantasy,2001,8.6
+6,Pulp Fiction,The lives of two mob hitmen intertwine in tales of violence,Crime|Drama,1994,8.9
+7,The Shawshank Redemption,Two imprisoned men bond over years,Drama,1994,9.3
+8,Forrest Gump,"Forrest Gump, a man with a low IQ, recounts his life story",Drama|Romance,1994,8.8
+9,The Matrix,A computer hacker learns about the true nature of reality,Action|Sci-Fi,1999,8.7
+10,Interstellar,A team travels through a wormhole in space to save humanity,Adventure|Drama|Sci-Fi,2014,8.6
+11,Fight Club,An insomniac office worker forms an underground fight club,Drama,1999,8.8
+12,The Lord of the Rings: The Fellowship of the Ring,A meek Hobbit sets out to destroy a powerful ring,Adventure|Fantasy,2001,8.8
+13,The Lord of the Rings: The Return of the King,The final battle for Middle-earth begins,Adventure|Fantasy,2003,9.0
+14,The Lord of the Rings: The Two Towers,"The fellowship is broken, but continues the quest",Adventure|Fantasy,2002,8.8
+15,The Silence of the Lambs,A young FBI cadet must confide in an incarcerated killer,Crime|Drama|Thriller,1991,8.6
+16,Se7en,Two detectives hunt a serial killer who uses the seven sins,Crime|Drama|Mystery,1995,8.6
+17,The Green Mile,The lives of guards on Death Row are affected by one inmate,Crime|Drama|Fantasy,1999,8.6
+18,Gladiator,A former Roman General sets out to exact revenge,Action|Adventure|Drama,2000,8.5
+19,Whiplash,A promising young drummer enrolls in a cutthroat music school,Drama|Music,2014,8.5
+20,The Prestige,Two magicians engage in a battle to create the ultimate illusion,Drama|Mystery|Sci-Fi,2006,8.5
+21,The Departed,An undercover cop and a mole try to identify each other,Crime|Drama|Thriller,2006,8.5
+22,Joker,"In Gotham, a failed comedian descends into madness",Crime|Drama|Thriller,2019,8.4
+23,Avengers: Endgame,The Avengers assemble to reverse Thanos' actions,Action|Adventure|Drama,2019,8.4
+24,Coco,A boy journeys into the Land of the Dead to find his great-great-grandfather,Animation|Adventure|Family,2017,8.4
+25,Inside Out,Personified emotions guide a young girl through life changes,Animation|Adventure|Comedy,2015,8.1
+26,Your Name,Two teenagers share a profound connection,Animation|Drama|Fantasy,2016,8.4
+27,A Beautiful Mind,"The life of John Nash, a brilliant but asocial mathematician",Biography|Drama,2001,8.2
+28,Good Will Hunting,A janitor at MIT has a gift for mathematics,Drama|Romance,1997,8.3
+29,Slumdog Millionaire,A Mumbai teen reflects on his life after being arrested,Drama|Romance,2008,8.0
+30,Life of Pi,A young man survives a disaster at sea and forms a connection with a tiger,Adventure|Drama|Fantasy,2012,7.9
+31,3 Idiots,Two friends search for their long-lost companion who inspired them to think differently,Comedy|Drama,2009,8.4
+32,Dangal,A former wrestler trains his daughters to become world-class wrestlers,Action|Biography|Drama,2016,8.4
+33,Lagaan,Villagers challenge British rulers to a game of cricket to avoid taxes,Drama|Musical|Sport,2001,8.1
+34,Taare Zameen Par,A teacher helps a dyslexic child discover his hidden potential,Drama|Family,2007,8.4
+35,Swades,An NRI returns to India and rediscovers his roots,Drama,2004,8.2
+36,Barfi!,Three young people learn about love and life,Comedy|Drama|Romance,2012,8.1
+37,Zindagi Na Milegi Dobara,Three friends take a road trip across Spain,Adventure|Comedy|Drama,2011,8.2
+38,Gully Boy,A street rapper rises from the slums of Mumbai,Drama|Music,2019,7.9
+39,Andhadhun,A blind pianist becomes embroiled in a murder,Crime|Thriller,2018,8.2
+40,Queen,A young woman goes on her honeymoon alone after being dumped,Adventure|Comedy|Drama,2013,8.1
+41,Kahaani,A pregnant woman searches for her missing husband in Kolkata,Mystery|Thriller,2012,8.1
+42,Piku,A quirky road trip reveals the relationship between an aging father and his daughter,Comedy|Drama,2015,7.6
+43,Barfi!,A mute and deaf man falls in love while facing life’s challenges,Comedy|Drama|Romance,2012,8.1
+44,Rang De Basanti,A group of students are inspired to fight against corruption,Drama|History,2006,8.1
+45,Black,A deaf and blind girl and her teacher discover light in darkness,Drama,2005,8.2
+46,Dil Chahta Hai,Three inseparable childhood friends face adult life,Comedy|Drama,2001,8.1
+47,Munna Bhai M.B.B.S.,A goon enrolls in medical school to fulfill his father's wish,Comedy|Drama,2003,8.1
+48,Chak De! India,A disgraced hockey player coaches the women's national team,Drama|Sport,2007,8.2
+49,Shershaah,The story of Captain Vikram Batra during the Kargil War,Action|Biography|Drama,2021,8.4
+50,Drishyam,A man goes to great lengths to protect his family after a crime,Crime|Drama|Mystery,2015,8.2
+51,Article 15,An honest cop fights caste-based discrimination in rural India,Crime|Drama,2019,8.1
+52,Maqbool,A retelling of Macbeth set in the Mumbai underworld,Crime|Drama|Thriller,2003,8.1
+53,Haider,A modern adaptation of Hamlet set in Kashmir,Action|Crime|Drama,2014,8.1
+54,Tumbbad,A man discovers a hidden treasure with a dark curse,Drama|Fantasy|Horror,2018,8.2
+55,Pink,Three women fight for justice with the help of a retired lawyer,Drama|Thriller,2016,8.1
+56,Masaan,Four lives intersect on the banks of the holy river, Ganga,Drama|Romance,2015,8.1
+57,Udaan,A teenager returns home to a strict father after being expelled,Drama,2010,8.1
+58,Rockstar,A young musician's journey from love to heartbreak,Drama|Music|Romance,2011,7.7
+59,The Lunchbox,A mistaken lunch delivery connects two lonely souls,Drama|Romance,2013,7.8
+60,Sardar Udham,A revolutionary assassinates a British officer in revenge for Jallianwala Bagh,Biography|Drama|History,2021,8.4
