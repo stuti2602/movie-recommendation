@@ -1,3 +1,4 @@
+# services/user_service.py
 from passlib.context import CryptContext
 from models.user_model import UserCreate, UserLogin
 import repositories.user_repository as repo
@@ -31,3 +32,31 @@ async def login_user(credentials: UserLogin):
         "email": user["email"],
         "preferences": user["preferences"]
     }
+
+# ➕ Add to watchlist
+async def add_to_watchlist(user_id: str, movie_id: int):
+    user = await repo.get_user_by_id(user_id)
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    movie_exists = await repo.movies_collection.find_one({"_id": movie_id})
+    if not movie_exists:
+        raise HTTPException(status_code=404, detail="Movie not found")
+
+    await repo.add_movie_to_watchlist(user_id, movie_id)
+    return {"message": "Movie added to watchlist"}
+
+# 📜 Get watchlist
+async def get_watchlist(user_id: str):
+    movies = await repo.get_watchlist_movies(user_id)
+    if movies is None:
+        raise HTTPException(status_code=404, detail="User not found")
+    return movies
+
+# ❌ Remove from watchlist
+async def remove_from_watchlist(user_id: str, movie_id: int):
+    user = await repo.get_user_by_id(user_id)
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    await repo.remove_movie_from_watchlist(user_id, movie_id)
+    return {"message": "Movie removed from watchlist"}
