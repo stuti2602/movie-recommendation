@@ -88,15 +88,7 @@ MONGO_URI=mongodb://localhost:27017
 DATABASE_NAME=movieDB
 🔐 Replace the URI with your connection string if using MongoDB Atlas.
 
-✅ Step 5: Run the Server
-
-uvicorn main:app --reload
-Server will start at:
-👉 http://127.0.0.1:8000
-Interactive API docs available at:
-👉 http://127.0.0.1:8000/docs
-
-🧪 Movie Seeding Script (seed_movies.py)
+✅ Step 5:🧪 Movie Seeding Script (seed_movies.py)
 This script reads a CSV file (data/movies.csv) containing movie details and inserts them into the MongoDB collection (movies_collection). It prevents duplicate seeding by checking if movies are already present in the collection.
 
 ✅ What It Does:
@@ -109,6 +101,17 @@ Parses each movie’s details: id, title, description, genre, and rating.
 Splits the genre string into a list for better filtering and querying.
 
 Bulk inserts all movies into the MongoDB collection using insert_many.
+
+
+✅ Step 6: Run the Server
+
+uvicorn main:app --reload
+Server will start at:
+👉 http://127.0.0.1:8000
+Interactive API docs available at:
+👉 http://127.0.0.1:8000/docs
+
+
 
 📌 Location of the CSV:
 
