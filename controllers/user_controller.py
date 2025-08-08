@@ -1,4 +1,3 @@
-# controllers/user_controller.py
 from fastapi import APIRouter, Header
 from models.user_model import UserCreate, UserLogin
 from pydantic import BaseModel
@@ -7,12 +6,15 @@ import services.watchlist_service as watchlist_service
 
 router = APIRouter(prefix="/user", tags=["User"])
 
+
 class AddWatchlistRequest(BaseModel):
-    movie_title: str  # Now title instead of ID
+    movie_id: int
+
 
 @router.post("/register", response_model=str, status_code=201)
 async def register(user: UserCreate):
     return await user_service.register_user(user)
+
 
 @router.post("/login")
 async def login(credentials: UserLogin):
@@ -20,17 +22,18 @@ async def login(credentials: UserLogin):
 
 
 @router.post("/watchlist", status_code=201)
-async def add_to_watchlist(request: AddWatchlistRequest, x_user_email: str = Header(...)):
-    return await watchlist_service.add_movie_to_watchlist_by_email(x_user_email, request.movie_title)
+async def add_to_watchlist(request: AddWatchlistRequest, x_user_id: str = Header(...)):
+    return await watchlist_service.add_movie_to_watchlist_by_user_id(x_user_id, request.movie_id)
+
 
 @router.get("/watchlist")
-async def get_watchlist(x_user_email: str = Header(...)):
-    return await watchlist_service.get_watchlist_by_email(x_user_email)
+async def get_watchlist(x_user_id: str = Header(...)):
+    return await watchlist_service.get_watchlist_by_user_id(x_user_id)
 
 
 @router.delete("/watchlist", status_code=200)
 async def remove_from_watchlist(
-    x_user_email: str = Header(...),
-    x_movie_title: str = Header(...)
+    x_user_id: str = Header(...),
+    x_movie_id: int = Header(...)
 ):
-    return await watchlist_service.remove_movie_from_watchlist_by_email(x_user_email, x_movie_title)
+    return await watchlist_service.remove_movie_from_watchlist_by_user_id(x_user_id, x_movie_id)
