@@ -102,6 +102,17 @@ Splits the genre string into a list for better filtering and querying.
 
 Bulk inserts all movies into the MongoDB collection using insert_many.
 
+📌 Location of the CSV:
+
+data/movies.csv
+
+🏁 How to Run the Script:
+Ensure MongoDB is running and your connection is properly configured in config/db.py, then run:
+
+python -m seed.seed_movies
+
+This will populate your MongoDB with movie data if it's currently empty.
+
 
 ✅ Step 6: Run the Server
 
@@ -113,16 +124,7 @@ Interactive API docs available at:
 
 
 
-📌 Location of the CSV:
 
-data/movies.csv
-
-🏁 How to Run the Script:
-Ensure MongoDB is running and your connection is properly configured in config/db.py, then run:
-
-python -m seed.seed_movies
-
-This will populate your MongoDB with movie data if it's currently empty.
 
 📮 API Endpoints
 Endpoint	Method	Description
